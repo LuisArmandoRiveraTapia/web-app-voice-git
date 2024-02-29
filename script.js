@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function () {
         recognizeSpeech();
     });
 
+
+    //Esto es un comentario 
+
     function recognizeSpeech() {
         const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
         recognition.lang = 'es-ES';
